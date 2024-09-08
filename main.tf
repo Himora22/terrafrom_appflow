@@ -31,6 +31,6 @@ module "securestrorage" {
   version              = "1.0.1"
   location             = azurerm_resource_group.SeunT.location
   resource_group_name  = azurerm_resource_group.SeunT.name
-  storage_account_name = "StoreTerra"
+  storage_account_name = "storeterra"
   environment          = "dev"
 }
